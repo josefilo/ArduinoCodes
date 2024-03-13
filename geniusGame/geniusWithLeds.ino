@@ -72,7 +72,7 @@ bool compareSequences(int (&sequence)[qtdColors], int (&playerSequence)[qtdColor
 {
     for (int i = 0; i < qtdColors; i++)
     {
-        if (sequence[i]-3 != playerSequence[i])
+        if (sequence[i]-qtdColors != playerSequence[i])
         {
             return false;
         }
